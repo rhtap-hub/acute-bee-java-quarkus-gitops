@@ -1,0 +1,6 @@
+apiVersion: "pipelinesascode.tekton.dev/v1alpha1"
+kind: Repository
+metadata:
+  name: acute-bee-java-quarkus-gitops-repository
+spec:
+  url: https://github.com/rhtap-hub/acute-bee-java-quarkus-gitops
